@@ -88,7 +88,14 @@ public class App {
    public static int[] lowestAverge(int[][] arr){
     float[] avgOfArr= new float[arr.length];
        for (int i = 0; i < arr.length; i++) {
-           avgOfArr[i] = avergeOfArray(arr[i]);
+//           avgOfArr[i] = avergeOfArray(arr[i]);
+           int n=arr[i].length;
+           double sum = 0;
+           for(int x=0 ; x<arr[i].length ; x++){
+               sum+=arr[i][x];
+           }
+           avgOfArr[i]= (float) (sum/n);
+           System.out.println("the average of array "+ i +" =>"+  avgOfArr[i]);
        }
        float copmare =avgOfArr[0];
        int index =0;
