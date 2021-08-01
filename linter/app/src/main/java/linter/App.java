@@ -22,7 +22,7 @@ public class App {
 
     public static void main(String[] args) throws IOException {
         System.out.println(new App().getGreeting());
-Path path = Paths.get("C:\\Users\\TLCAT-1220\\401\\java-fundamentals\\linter\\app\\src\\main\\resources\\gates.js");
+Path path = Paths.get("./app/src/main/resources/gates.js");
 
         new App().lenterJS(path.toString());
     }

@@ -1,16 +1,19 @@
 # java-fundamentals
-## basiclibrary 
-_we will solve these things_
-1. Rolling Dice
-2. Contains Duplicates
-3. Calculating Averages
-4. Arrays of Arrays
-5. Analyzing Weather Data
-6. Tallying Election
 
-## basics 
-1. Pluralize :  that accepts a word and a number and returns a string with the word pluralized with an “s” if the number is zero, or greater than one.
+## Lab-03: Maps and File I/O
+### basiclibrary
+we will solve these things
 
-2. Flipping Coins : that accepts an integer n and flips coins until n heads are flipped in a row. 
+Rolling Dice
+Contains Duplicates
+Calculating Averages
+Arrays of Arrays
+Analyzing Weather Data
+Tallying Election
+## basics
+Pluralize : that accepts a word and a number and returns a string with the word pluralized with an “s” if the number is zero, or greater than one.
 
-3. Command Line Clock : that uses Java’s built-in LocalDateTime object to constantly print out the current time to the console, second by second. 
+Flipping Coins : that accepts an integer n and flips coins until n heads are flipped in a row.
+
+Command Line Clock : that uses Java’s built-in LocalDateTime object to constantly print out the current time to the console, second by second.
+
