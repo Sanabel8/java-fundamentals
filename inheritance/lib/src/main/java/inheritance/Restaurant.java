@@ -6,6 +6,8 @@ public class Restaurant {
     private String name;
     private int numStars;
     private int priceCategory;
+    private float starsRating= 0;
+    private int i =0;
     // add anew review instance to store the reviwes in list
     private LinkedList<Review> reviews = new LinkedList<Review>();
 
@@ -68,30 +70,19 @@ public class Restaurant {
 
 
   public void addReview(Review review){
-        LinkedList<Review> reviews = new LinkedList<Review>();
-         System.out.println(reviews.add(review));
-         System.out.println("Name of resturant"+name+ ": "+ review);
-      System.out.println(reviews);// as array we will use it
-}
-//make method to store the all reviews in linked list
-//    public  LinkedList storesReviews(Review review){
-//        System.out.println(reviews+"vvvvvvvv");
-//        List list = Collections.singletonList(reviews.add(review));
-//        System.out.println(list);
-//   return (LinkedList) list;
-//    }
+        this.reviews.add(review);
+         System.out.println("ssssss"+this.reviews.size()); //size of list
+           i++;
+          starsRating += review.getNumStars();
+      System.out.println("starsRating: "+ starsRating);
+      // make avg to get rating
+      System.out.println(starsRating/i);
+      this.numStars= (int) (starsRating/i);
+  }
+
 public LinkedList<Review> getReviews() {
     return reviews;
 }
 
-    public void updateStars() {
-      int currentRate=0;
-        for (int i=0; i < getReviews().size(); i++) {
-            currentRate += getReviews().get(i).getNumStars();
-        }
-        currentRate = currentRate/(getReviews().size());
-        currentRate = Math.round(currentRate );
-        this.numStars = currentRate;
-    }
     }
 
