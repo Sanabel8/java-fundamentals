@@ -13,7 +13,7 @@ public class Library {
 
             //create an instanse of resturant class
             Restaurant restaurant = new Restaurant("aldaiaa restaurant",3,5);
-            System.out.println(restaurant);
+//            System.out.println(restaurant);
 
 
             //craete an instanse of review class
@@ -25,11 +25,10 @@ public class Library {
            restaurant.addReview(review2);
            restaurant.addReview(review3);
 
-           System.out.println(restaurant.getReviews());
+           restaurant.getReviews();
+           System.out.println("array of reviews"+restaurant.getReviews());
 
-           System.out.println(review);
-           System.out.println(review2);
-           System.out.println(review3);
+
 
 
 
