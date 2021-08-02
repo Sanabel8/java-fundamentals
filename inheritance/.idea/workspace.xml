@@ -81,7 +81,7 @@
       <recent name="interFases" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Library">
+  <component name="RunManager" selected="Gradle.LibraryTest.someLibraryMethodReturnsTrue">
     <configuration name="Library" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="inheritance.Library" />
       <module name="inheritance.lib.main" />
@@ -101,6 +101,27 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;inheritance.LibraryTest.TestAddReviewRes&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":lib:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="LibraryTest.someLibraryMethodReturnsTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;inheritance.LibraryTest.someLibraryMethodReturnsTrue&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -158,34 +179,13 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LibraryTest.testReviewToString" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;inheritance.LibraryTest.testReviewToString&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":lib:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LibraryTest.someLibraryMethodReturnsTrue" />
         <item itemvalue="Gradle.LibraryTest.testAddReview" />
         <item itemvalue="Gradle.LibraryTest.TestAddReviewRes" />
         <item itemvalue="Application.Library" />
         <item itemvalue="Gradle.LibraryTest.testRestaurantToString" />
-        <item itemvalue="Gradle.LibraryTest.testReviewToString" />
       </list>
     </recent_temporary>
   </component>
