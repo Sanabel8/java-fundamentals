@@ -3,13 +3,12 @@ package inheritance;
 public class Review {
     private String author;
     private int numStars;
-private String body;
+    private String body;
 
-    public Review(String author, int numStars, String body) {
-        this.author = author;
-        this.numStars = numStars;
-        this.body = body;
-    }
+    //for test the constructor should added the method for shop and theater her
+    private String name;
+    private String description;
+    private int numOfDollarSigns;
 
     public Review(String body, String author, int numStars) {
         this.body = body;
