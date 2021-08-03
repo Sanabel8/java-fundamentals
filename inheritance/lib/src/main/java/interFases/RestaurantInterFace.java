@@ -7,7 +7,6 @@ public interface RestaurantInterFace {
     String getName();
     int getNumStars();
     int getPriceCategory();
-    void updateStars();
     void addReview(Review review);
 
 }

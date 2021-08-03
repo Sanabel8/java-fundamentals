@@ -10,10 +10,8 @@ public class Library {
 
     public static void main(String[] args) {
 
-
             //create an instanse of resturant class
             Restaurant restaurant = new Restaurant("aldaiaa restaurant",3,5);
-//            System.out.println(restaurant);
 
 
             //craete an instanse of review class
@@ -28,10 +26,45 @@ public class Library {
            restaurant.getReviews();
            System.out.println("array of reviews"+restaurant.getReviews());
 
+        System.out.println("*********************************************************");
 
+        //craete an instanses of shop class
+        Shop shop1 = new Shop("mecca mall","multibule uses",5);
+        Shop shop2 = new Shop("Abdali mall","popular place ",6);
+        Shop shop3 = new Shop("city mall","variety of shops",4);
 
+          //craete an instanses of review class
+        Review reviewA = new Review("really fun place","Tareq",4);
+        Review reviewB = new Review("I love the place ","Mohammad",5);
+        Review reviewC = new Review("cool place","Ahmad",3);
 
+        shop1.addReview(reviewA);
+        shop2.addReview(reviewB);
+        shop3.addReview(reviewC);
 
+        shop1.getReviews();
+        shop2.getReviews();
+        shop3.getReviews();
+        System.out.println("list reviews for shops"+shop1.getReviews()+shop2.getReviews()+shop3.getReviews());
+
+        System.out.println("*********************************************************");
+        
+        Theater theater = new Theater("sanabel");
+         //added movies
+        theater.addMovie("beatifule and beast");
+        theater.addMovie("حوريه البحر");
+        theater.addMovie("aaaaaaaaa");
+        theater.addMovie("wwwwwwwww");
+        System.out.println("movies "+theater);
+        // to get moives in list
+        System.out.println("movies as list "+ theater.getMovies());
+        // added reviews
+        theater.addRev("nice","sara",4);
+        // added re
+        theater.addRev("intresting movie" ,"beatifule and beast",4);
+        // remove movie
+        theater.removeMovie("aaaaaaaaa");
+        System.out.println(theater.getMovies());
 
     }
 }

@@ -6,7 +6,7 @@ public class Restaurant {
     private String name;
     private int numStars;
     private int priceCategory;
-    private float starsRating= 0;
+    private float starsRating= 0; //because it avg
     private int i =0;
     // add anew review instance to store the reviwes in list
     private LinkedList<Review> reviews = new LinkedList<Review>();
@@ -50,15 +50,7 @@ public class Restaurant {
         this.priceCategory = priceCategory;
     }
 
-    // generate getter and seeter to linked list also /////////
-//    public LinkedList<Review> getReviews() {
-//        return reviews;
-//    }
-//
-//    public void setReviews(LinkedList<Review> reviews) {
-//        this.reviews = reviews;
-//    }
-///////////////////////////////////////////////////
+
     @Override
     public String toString() {
         return "Restaurant{" +

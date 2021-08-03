@@ -6,6 +6,7 @@ package inheritance;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class LibraryTest {
     @Test void someLibraryMethodReturnsTrue() {
@@ -26,7 +27,7 @@ class LibraryTest {
         assertEquals("sanabel" ,test.getAuthor());
         assertEquals( 5,test.getNumStars());
     }
-    @Test public void testRestaurantToString(){
+        @Test public void testRestaurantToString(){
         Restaurant test =new Restaurant("aldaiaa" ,3,5);
 //        test.toString();
         assertEquals("Restaurant{name='aldaiaa', numStars=3, priceCategory=5}",test.toString());
@@ -44,6 +45,51 @@ class LibraryTest {
 
     }
 
+    // test for shop constructor
+    @Test public void testShopConstructor(){
+        Review reviewB = new Review("I love the place ","Mohammad",5);
+        assertEquals("I love the place " ,reviewB.getBody());
+        assertEquals("Mohammad" ,reviewB.getAuthor());
+        assertEquals( 5,reviewB.getNumStars());
+    }
+
+    @Test public void testShopToString(){
+        Review reviewB = new Review("I love the place ","Mohammad",5);
+        assertEquals("Review{author='Mohammad', numStars=5, body='I love the place '}",reviewB.toString());
+    }
+    @Test public void testShopAddReview(){
+        Review reviewB = new Review("I love the place ","Mohammad",5);
+        assertEquals("Review{author='Mohammad', numStars=5, body='I love the place '}",reviewB.toString());
+
+    }
+
+
+    //test for theater constructor
+    @Test public void testTheaterConstructor(){
+        Theater theater = new Theater("sanabel");
+        assertEquals("sanabel" ,theater.getName());
+    }
+@Test public void testTheaterToString(){
+    Theater theater = new Theater("sanabel");
+   assertEquals("Theater{name='sanabel', movies='[]'}",theater.toString());
+}
+@Test public void testAddRev(){
+    Theater theater = new Theater("sanabel");
+    theater.addRev("good","sanabel",4);
+    theater.getMovies();
+    assertEquals("Theater{name='sanabel', movies='[]'}",theater.toString());
+}
+@Test public void testAddedMovie(){
+    Theater theater = new Theater("test");
+    theater.addMovie("sssssss");
+    theater.addMovie("ttttttt");
+    assertEquals("Theater{name='test', movies='[sssssss, ttttttt]'}", theater.toString());
+
+}
 
 
 }
+
+
+
+
