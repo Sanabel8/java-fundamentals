@@ -89,33 +89,43 @@ public class App {
         }
         return false;
     }
-    public static float avergeOfArray(int[] arr){
+  public static float avergeOfArray(int[] arr){
         int sum=0;
 //      for (int i: arr) { // i is element
 //          sum =sum+i;
 //      }
-        for (int i = 0; i < arr.length; i++) {
-            sum =sum+arr[i];    // i is conter (index)
-        }
-        return (float)  sum / arr.length;
-    }
+      for (int i = 0; i < arr.length; i++) {
+          sum =sum+arr[i];    // i is conter (index)
+      }
+      return (float)  sum / arr.length;
+   }
 
-    public static int[] lowestAverge(int[][] arr){
-        float[] avgOfArr= new float[arr.length];
-        for (int i = 0; i < arr.length; i++) {
-            avgOfArr[i] = avergeOfArray(arr[i]);
-        }
-        float copmare =avgOfArr[0];
-        int index =0;
-        for (int i = 0; i < avgOfArr.length; i++) {
-            if (copmare >= avgOfArr[i]){
-                copmare =avgOfArr[i];
-                index=i;
-            }
-        }
-        return arr[index];
-    }
+   public static int[] lowestAverge(int[][] arr){
+    float[] avgOfArr= new float[arr.length];
+       for (int i = 0; i < arr.length; i++) {
+//           avgOfArr[i] = avergeOfArray(arr[i]);
+           int n=arr[i].length;
+           double sum = 0;
+           for(int x=0 ; x<arr[i].length ; x++){
+               sum+=arr[i][x];
+           }
+           avgOfArr[i]= (float) (sum/n);
+           System.out.println("the average of array "+ i +" =>"+  avgOfArr[i]);
+       }
+       float copmare =avgOfArr[0];
+       int index =0;
+       for (int i = 0; i < avgOfArr.length; i++) {
+           if (copmare >= avgOfArr[i]){
+               copmare =avgOfArr[i];
+               index=i;
+           }
 
+       }
+
+return arr[index];
+
+
+    }
     public static List<String> weatherData(int[][] arr){
         Set<Integer> set = new HashSet<Integer>();
         int minValue=arr[0][0];
