@@ -56,7 +56,7 @@ public class Theater implements TheaterInterFace {
 
     public void addRev(Review rev, String movieName) {
         if (movies.contains(movieName)) {
-            reviewsMovie.put("", rev);
+            reviewsMovie.put(movieName,rev);
             System.out.println("the movie added");
         } else {
             System.out.println("no movies");
