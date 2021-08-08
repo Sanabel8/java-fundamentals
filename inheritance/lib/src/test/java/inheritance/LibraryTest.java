@@ -47,19 +47,19 @@ class LibraryTest {
 
     // test for shop constructor
     @Test public void testShopConstructor(){
-        Review reviewB = new Review("I love the place ","Mohammad",5);
-        assertEquals("I love the place " ,reviewB.getBody());
-        assertEquals("Mohammad" ,reviewB.getAuthor());
-        assertEquals( 5,reviewB.getNumStars());
+        Shop shop1 = new Shop("mecca mall","multibule uses",5);
+        assertEquals("mecca mall" ,shop1.getName());
+        assertEquals("multibule uses" ,shop1.getDescription());
+        assertEquals( 5,shop1.getNumOfDollarSigns());
     }
 
     @Test public void testShopToString(){
-        Review reviewB = new Review("I love the place ","Mohammad",5);
-        assertEquals("Review{author='Mohammad', numStars=5, body='I love the place '}",reviewB.toString());
+        Shop shop1 = new Shop("mecca mall","multibule uses",5);
+        assertEquals("Shop{name='mecca mall', description='multibule uses', numOfDollarSigns=5}",shop1.toString());
     }
     @Test public void testShopAddReview(){
-        Review reviewB = new Review("I love the place ","Mohammad",5);
-        assertEquals("Review{author='Mohammad', numStars=5, body='I love the place '}",reviewB.toString());
+        Shop shop1 = new Shop("mecca mall","multibule uses",5);
+        assertEquals("Shop{name='mecca mall', description='multibule uses', numOfDollarSigns=5}",shop1.toString());
 
     }
 

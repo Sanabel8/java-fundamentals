@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d7d155d-60ac-443b-8a45-b18c6c184444" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/inheritance/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/inheritance/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/inheritance/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/inheritance/Restaurant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/inheritance/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/inheritance/Review.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/inheritance/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/inheritance/Shop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/inheritance/Theater.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/inheritance/Theater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/interFases/RestaurantInterFace.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/interFases/RestaurantInterFace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/interFases/ReviewInterFace.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/interFases/ReviewInterFace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/interFases/ShopInterFace.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/interFases/ShopInterFace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/interFases/TheaterInterFace.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/interFases/TheaterInterFace.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/test/java/inheritance/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/test/java/inheritance/LibraryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +68,7 @@
       <recent name="interFases" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Library">
+  <component name="RunManager" selected="Gradle.LibraryTest.testShopConstructor">
     <configuration name="Library" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="inheritance.Library" />
       <module name="inheritance.lib.main" />
@@ -113,12 +103,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LibraryTest.testRemove" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LibraryTest.testShopAddReview" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;inheritance.LibraryTest.testRemove&quot;" />
+        <option name="scriptParameters" value="--tests &quot;inheritance.LibraryTest.testShopAddReview&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -134,12 +124,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LibraryTest.testremove" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LibraryTest.testShopConstructor" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;inheritance.LibraryTest.testremove&quot;" />
+        <option name="scriptParameters" value="--tests &quot;inheritance.LibraryTest.testShopConstructor&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -155,12 +145,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LibraryTest.testremoveAndAddedMovie" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LibraryTest.testShopToString" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;inheritance.LibraryTest.testremoveAndAddedMovie&quot;" />
+        <option name="scriptParameters" value="--tests &quot;inheritance.LibraryTest.testShopToString&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -178,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LibraryTest.testShopConstructor" />
+        <item itemvalue="Gradle.LibraryTest.testShopAddReview" />
+        <item itemvalue="Gradle.LibraryTest.testShopToString" />
         <item itemvalue="Application.Library" />
         <item itemvalue="Gradle.LibraryTest" />
-        <item itemvalue="Gradle.LibraryTest.testRemove" />
-        <item itemvalue="Gradle.LibraryTest.testremoveAndAddedMovie" />
-        <item itemvalue="Gradle.LibraryTest.testremove" />
       </list>
     </recent_temporary>
   </component>
